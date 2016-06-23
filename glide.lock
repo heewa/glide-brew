@@ -1,11 +1,15 @@
-hash: 7b8ecd9296c40a873d12231e67daf23162c89a481682f3596a2c50ae0cd1484f
-updated: 2016-06-23T00:07:23.517537096-04:00
+hash: 12e90e408adb42e99afd19a3e830539e81922ef751657f15b7fe003529887414
+updated: 2016-06-23T12:07:39.965324354-04:00
 imports:
 - name: github.com/codegangsta/cli
   version: 71f57d300dd6a780ac1856c005c4b518cfd498ec
+- name: github.com/heewa/glide-brew
+  version: 57dd4e20c02964aeca1ce75727d0c728bfd36a2a
+  subpackages:
+  - brew
+  - resource
 - name: github.com/Masterminds/glide
-  version: 6cd634cbe70d7ae8638e54aacb5d69850378536c
-  repo: git://github.com/heewa/glide.git
+  version: 22afecf135d9e686b2e0872ad34f03756552905d
   subpackages:
   - action
   - cfg
