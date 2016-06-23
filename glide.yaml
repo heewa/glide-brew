@@ -1,6 +1,8 @@
 package: github.com/heewa/glide-brew
 import:
 - package: github.com/Masterminds/glide
+  repo: git://github.com/heewa/glide.git
+  version: shared-lockfile-fns
   subpackages:
   - action
   - cfg
