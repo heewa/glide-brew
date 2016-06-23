@@ -1,0 +1,30 @@
+hash: 12e90e408adb42e99afd19a3e830539e81922ef751657f15b7fe003529887414
+updated: 2016-06-22T23:51:09.345701601-04:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 71f57d300dd6a780ac1856c005c4b518cfd498ec
+- name: github.com/Masterminds/glide
+  version: dc7ca2fac03513f0324d6323a0c42842f1a9bf86
+  subpackages:
+  - action
+  - cfg
+  - msg
+  - path
+  - cache
+  - dependency
+  - gb
+  - godep
+  - gom
+  - gpm
+  - repo
+  - tree
+  - util
+  - godep/strip
+  - importer
+- name: github.com/Masterminds/semver
+  version: 808ed7761c233af2de3f9729a041d68c62527f3a
+- name: github.com/Masterminds/vcs
+  version: 7af28b64c5ec41b1558f5514fd938379822c237c
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+devImports: []

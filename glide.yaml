@@ -1,0 +1,8 @@
+package: github.com/heewa/glide-brew
+import:
+- package: github.com/Masterminds/glide
+  subpackages:
+  - action
+  - cfg
+  - msg
+  - path
