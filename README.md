@@ -5,8 +5,13 @@ See Homebrew's [documentation on resources](https://github.com/Homebrew/brew/blo
 
 # usage
 
-Install with:
-```bash
+You can either install with Homebrew:
+```
+brew install heewa/tap/glide-brew
+```
+
+Or with Go:
+```
 go get github.com/heewa/glide-brew
 ```
 
